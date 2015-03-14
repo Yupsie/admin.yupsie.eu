@@ -56,7 +56,7 @@ class V_Files extends V_Main {
 			if (is_dir($aFile['path'] . $aFile['name'])) {
 				$this->sData .= '
 						<tr' . (substr($aFile['name'], 0, 1) == '.' ? ' class="hidden"' : '') . '>
-							<td colspan="2"><strong><a href="' . str_replace('/', '+', strtolower(trim($this->oClean->getParts(1) . '/' . $aFile['name'], '/'))) . '">' . $aFile['name'] . '</a></strong></td>
+							<td colspan="2"><strong><a href="' . str_replace('/', '+', strtolower(trim($this->oClean->getParts(1) . '/-' . $aFile['name'], '/'))) . '">' . $aFile['name'] . '</a></strong></td>
 							<td>' . $aFile['mimetype'] . '<br>&nbsp;</td>
 							<td class="permissions">&nbsp;<br>
 								<em>' . $aFile['permissions'] . '</em></td>

@@ -246,7 +246,7 @@ class V_Main {
 		$oGeshi->set_header_type(GESHI_HEADER_PRE_TABLE);
 		$oGeshi->set_header_content('Taal: <LANGUAGE>');
 		$oGeshi->set_footer_content('Parsetijd: <TIME> seconden');
-		$oGeshi->enable_line_numbers(GESHI_FANCY_LINE_NUMBERS, 2);
+		$oGeshi->enable_line_numbers(GESHI_FANCY_LINE_NUMBERS, 1);
 		$aHighlightlines = explode(",", $aMatches[3]);
 		$aHighlightlines = array_map(create_function('$value', 'return (int)$value;'), $aHighlightlines);
 		$oGeshi->highlight_lines_extra($aHighlightlines);

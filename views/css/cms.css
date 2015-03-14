@@ -146,6 +146,7 @@ header {
 	padding:20px 0 0 300px;
 	box-sizing:border-box;
 	box-shadow:0px 0px 8px 4px rgba(127,127,127,0.1);
+	z-index:99;
 }
 footer {
 	height:20px;
@@ -215,18 +216,18 @@ menu li.active {
 }
 menu > li.admin {
 	background-color:#ff9999;
-	background-image:linear-gradient(to top, #ff9999, #9999ff, #9999ff);
+	background-image:linear-gradient(to top, #ff9999 0px, #ff9999 2px, #9999ff 2px, #9999ff 24px);
 }
 menu > li.admin > a {
 	color:#ffcccc;
 }
 menu > li.admin.active {
 	background-color:#ff8f8f;
-	background-image:linear-gradient(to top, #ff8f8f, #8f8fff, #8f8fff);
+	background-image:linear-gradient(to top, #ff8f8f 0px, #ff8f8f 2px, #8f8fff 2px, #8f8fff 24px);
 }
 menu > li.admin:hover {
 	background-color:#ff8888;
-	background-image:linear-gradient(to top, #ff8888, #8888ff, #8888ff);
+	background-image:linear-gradient(to top, #ff8888 0px, #ff8888 2px, #8888ff 2px, #8888ff 24px);
 }
 menu > li.active {
 	background-color:#8f8fff;
@@ -464,7 +465,7 @@ tr.hidden td {
 	letter-spacing:3px;
 }
 .mycode table {
-	width:80%;
+	width:100%;
 	position:relative;
 }
 .mycode td {
@@ -502,8 +503,8 @@ tr.hidden td {
 }
 .mycode .li2 {
 	vertical-align:top;
-	background:#ddddff;
 	line-height:24px;
+	border-bottom:1px solid #ffffff !important;
 }
 .mycode .ln {
 	width:30px;
@@ -512,10 +513,9 @@ tr.hidden td {
 	padding:0 10px 0 0;
 	vertical-align:top;
 	font-weight:bold;
-	color:#1f6f8f;
 	line-height:23px;
 	background:none;
-	color:#ddddff;
+	color:#ffffff;
 }
 .mycode .ln .li2 {
 	color:#eeeeff;
@@ -570,7 +570,7 @@ pre ol li div {
 .mycode .coMULTI,
 .mycode .co1, 
 .mycode .co2 {
-	color:#7830cc;	
+	color:#ff5500;
 }
 
 /* methods */
@@ -586,7 +586,7 @@ pre ol li div {
 
 /* brackets */
 .mycode .br0 {
-	color:#eeeeee;
+	color:#0000ff;
 }
 
 /* strings */
@@ -612,7 +612,12 @@ pre ol li div {
 
 /* vars */
 .mycode .re0 {
-	color:#eeeeee;
+	color:#9911dd;
+}
+
+/* comments */
+.mycode .co4 {
+	color:#ff5500;
 }
 
 /* classnames */

@@ -20,12 +20,13 @@ class C_Files extends C_Main {
 		//	@todo: Finish the filemanager, perhaps with a database connection
 		chdir('..');
 
-		if ($this->oClean->getParts(2) == 'del') {
-			if (unlink(UPLOAD_PATH . '/' . $this->oClean->getParts(1))) {
-				echo 'File deleted';
+		if (strtolower($this->oClean->getParts(2)) == 'del') {
+			if (unlink(UPLOAD_PATH . strtolower($this->oClean->getParts(1)))) {
+				header('Location: /files/');
 			}
 			else {
-				echo 'Delete failed';
+				header('Location: /files/');
+			//	echo 'Delete failed';
 			}
 		}
 
@@ -55,7 +56,7 @@ class C_Files extends C_Main {
 		$aData = array();
 		$sRelPath = str_replace('+', '/', strtolower($this->oClean->getParts(1))) . '/';
 
-		if ($dirHandle = opendir(UPLOAD_PATH . $sRelPath)) {
+		if (is_dir(UPLOAD_PATH . $sRelPath) && $dirHandle = opendir(UPLOAD_PATH . $sRelPath)) {
 		    while (false !== ($sFileName = readdir($dirHandle))) {
 		        if (($sFileName != ".") && ($sFileName != "..") && ((substr($sFileName, 0, 1) != '.') || (defined('DB_ADMIN') && DB_ADMIN == true))) {
 					$aData[] = array(

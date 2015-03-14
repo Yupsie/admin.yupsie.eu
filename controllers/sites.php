@@ -27,9 +27,7 @@ class C_Sites extends C_Main {
 			}
 		}
 
-		//	@todo: Add & edit configs
-		//	@todo: Add subdomain & vhost, Apache restart
-		//	@todo: Add database, create tables and users with appropriate privileges
+		//	@todo: Add database, create tables and users with appropriate privileges and edit configs
 		if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			mkdir('/var/sub/' . $_POST['SITE_PATH'] . '/', 0777);
 			mkdir('/var/sub/' . $_POST['SITE_PATH'] . '/css/', 0777);
@@ -142,7 +140,9 @@ define(\'DT_FORMAT_PHP_TIME\', \'' . $_POST['DT_FORMAT_PHP_TIME'] . '\');
 define(\'DT_FORMAT_PHP_DATETIME\', \'' . $_POST['DT_FORMAT_PHP_DATETIME'] . '\');
 define(\'DT_FORMAT_PHP_RFC\', \'' . $_POST['DT_FORMAT_PHP_RFC'] . '\');');
 
-			file_put_contents('/etc/apache2/sites-enabled/sub', '<VirtualHost *:80>
+			file_put_contents('/etc/apache2/sites-enabled/sub', '
+
+<VirtualHost *:80>
 	ServerName ' . str_replace(array('.nl', '.com', '.eu'), '.eu', $_POST['SITE_PATH']) . '
 	DocumentRoot /var/sub/' . str_replace(array('.nl', '.com', '.eu'), '.eu', $_POST['SITE_PATH']) . '
 </VirtualHost>
