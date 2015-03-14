@@ -1,0 +1,126 @@
+
+#@####-01-12-2013 03:05:43-###
+- Message: Oeps... - 404 - Klasse "C_Favicon.ico" niet gevonden
+
+- File: /var/sub/admin.yupsie.eu/controllers/classloader/index.php
+- Line: 43
+- Code: 0
+
+##-Stack-trace-##
+#0 /var/sub/admin.yupsie.eu/controllers/classloader/index.php(11): C_Classloader_Main::run('C_Favicon.ico')
+#1 [internal function]: __autoload('C_Favicon.ico')
+#2 /var/sub/admin.yupsie.eu/index.php(74): class_exists('C_Favicon.ico')
+#3 {main}
+
+#-Additional-info-#
+- IP: 82.171.61.92
+- User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/30.0.1599.114 Chrome/30.0.1599.114 Safari/537.36
+- Cookie: PHPSESSID=75175b4dafc2205ea2205eab3b36a6f7
+- Querystring: pag=favicon.ico/
+- Request method: GET
+- HTTP Status: 
+
+#@####-04-12-2013 20:19:53-###
+- Message: Oeps... - 404 - Klasse "C_Favicon.ico" niet gevonden
+
+- File: /var/sub/admin.yupsie.eu/controllers/classloader/index.php
+- Line: 43
+- Code: 0
+
+##-Stack-trace-##
+#0 /var/sub/admin.yupsie.eu/controllers/classloader/index.php(11): C_Classloader_Main::run('C_Favicon.ico')
+#1 [internal function]: __autoload('C_Favicon.ico')
+#2 /var/sub/admin.yupsie.eu/index.php(74): class_exists('C_Favicon.ico')
+#3 {main}
+
+#-Additional-info-#
+- IP: 82.171.61.92
+- User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/30.0.1599.114 Chrome/30.0.1599.114 Safari/537.36
+- Cookie: PHPSESSID=75175b4dafc2205ea2205eab3b36a6f7
+- Querystring: pag=favicon.ico/
+- Request method: GET
+- HTTP Status: 
+
+#@####-07-12-2013 22:02:18-###
+- Message: Oeps... - 404 - Klasse "C_Favicon.ico" niet gevonden
+
+- File: /var/sub/admin.yupsie.eu/controllers/classloader/index.php
+- Line: 43
+- Code: 0
+
+##-Stack-trace-##
+#0 /var/sub/admin.yupsie.eu/controllers/classloader/index.php(11): C_Classloader_Main::run('C_Favicon.ico')
+#1 [internal function]: __autoload('C_Favicon.ico')
+#2 /var/sub/admin.yupsie.eu/index.php(74): class_exists('C_Favicon.ico')
+#3 {main}
+
+#-Additional-info-#
+- IP: 82.171.61.92
+- User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/30.0.1599.114 Chrome/30.0.1599.114 Safari/537.36
+- Cookie: PHPSESSID=75175b4dafc2205ea2205eab3b36a6f7
+- Querystring: pag=favicon.ico/
+- Request method: GET
+- HTTP Status: 
+
+#@####-08-12-2013 00:50:43-###
+- Message: Oeps... - 404 - Klasse "C_Favicon.ico" niet gevonden
+
+- File: /var/sub/admin.yupsie.eu/controllers/classloader/index.php
+- Line: 43
+- Code: 0
+
+##-Stack-trace-##
+#0 /var/sub/admin.yupsie.eu/controllers/classloader/index.php(11): C_Classloader_Main::run('C_Favicon.ico')
+#1 [internal function]: __autoload('C_Favicon.ico')
+#2 /var/sub/admin.yupsie.eu/index.php(74): class_exists('C_Favicon.ico')
+#3 {main}
+
+#-Additional-info-#
+- IP: 82.171.61.92
+- User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/30.0.1599.114 Chrome/30.0.1599.114 Safari/537.36
+- Cookie: PHPSESSID=75175b4dafc2205ea2205eab3b36a6f7
+- Querystring: pag=favicon.ico/
+- Request method: GET
+- HTTP Status: 
+
+#@####-15-12-2013 18:22:23-###
+- Message: Oeps... - 404 - Klasse "C_Favicon.ico" niet gevonden
+
+- File: /var/sub/admin.yupsie.eu/controllers/classloader/index.php
+- Line: 43
+- Code: 0
+
+##-Stack-trace-##
+#0 /var/sub/admin.yupsie.eu/controllers/classloader/index.php(11): C_Classloader_Main::run('C_Favicon.ico')
+#1 [internal function]: __autoload('C_Favicon.ico')
+#2 /var/sub/admin.yupsie.eu/index.php(74): class_exists('C_Favicon.ico')
+#3 {main}
+
+#-Additional-info-#
+- IP: 82.171.61.92
+- User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/30.0.1599.114 Chrome/30.0.1599.114 Safari/537.36
+- Cookie: PHPSESSID=75175b4dafc2205ea2205eab3b36a6f7
+- Querystring: pag=favicon.ico/
+- Request method: GET
+- HTTP Status: 
+
+#@####-16-12-2013 16:21:46-###
+- Message: Oeps... - 404 - Klasse "C_Favicon.ico" niet gevonden
+
+- File: /var/sub/admin.yupsie.eu/controllers/classloader/index.php
+- Line: 43
+- Code: 0
+
+##-Stack-trace-##
+#0 /var/sub/admin.yupsie.eu/controllers/classloader/index.php(11): C_Classloader_Main::run('C_Favicon.ico')
+#1 [internal function]: __autoload('C_Favicon.ico')
+#2 /var/sub/admin.yupsie.eu/index.php(74): class_exists('C_Favicon.ico')
+#3 {main}
+
+#-Additional-info-#
+- IP: 82.171.61.92
+- User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/30.0.1599.114 Chrome/30.0.1599.114 Safari/537.36
+- Cookie: PHPSESSID=75175b4dafc2205ea2205eab3b36a6f7
+- Querystring: pag=favicon.ico/
+- Request method: GET
+- HTTP Status: 

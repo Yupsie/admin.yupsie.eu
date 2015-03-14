@@ -1,0 +1,21 @@
+
+#@####-07-03-2015 13:02:50-###
+- Message: Oeps... - 404 - Klasse "C_Infof" niet gevonden
+
+- File: /var/sub/admin.yupsie.eu/controllers/classloader/index.php
+- Line: 45
+- Code: 0
+
+##-Stack-trace-##
+#0 /var/sub/admin.yupsie.eu/controllers/classloader/index.php(12): C_Classloader_Main::run('C_Infof')
+#1 [internal function]: __autoload('C_Infof')
+#2 /var/sub/admin.yupsie.eu/index.php(78): class_exists('C_Infof')
+#3 {main}
+
+#-Additional-info-#
+- IP: 62.194.244.155
+- User-agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+- Cookie: PHPSESSID=r13lrlve7e3hgvhu6epl114q11
+- Querystring: pag=infof//
+- Request method: GET
+- HTTP Status: 

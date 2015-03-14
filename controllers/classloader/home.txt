@@ -1,0 +1,18 @@
+Ik ben een minimalist en een purist. In mijn opinie kan een website opgedeeld worden in opmaak, stijl en de techniek en behoren deze elementen ook in de desbetreffende bestanden gedefini&euml;erd te worden. De techniek kan op zijn beurt ook weer in drie elementen opgedeeld worden, dit is te zien in onderstaand schema van het MVC patroon. Naar verwachting zullen de <abbr>html5</abbr> specificaties in de loop van dit jaar af zijn en met de komst van versies 9, 10 en 11 van Internet Explorer is het aandeel van de eerdere versies verwaarloosbaar. Hiermee gaat er een wereld open voor ontwikkelaars en hoeven ze zich niet langer in allerlei bochten te wringen om een website er in alle browsers hetzelfde uit te laten zien. Door <em>graceful degradation</em> van de opmaak is de website in oudere browsers wel leesbaar, zij het zonder afgeronde hoekjes en kleurverlopen. 
+
+
+Minimalistisch design is mijn speerpunt. Nu het zo makkelijk is geworden om schaduweffecten, kleurverlopen en afgeronde hoeken te gebruiken, is het ook makkelijk om deze teveel te gebruiken.
+
+
+
+
+
+
+
+
+
+
+Web 2.x is in opkomst. Verwacht wordt dat de html5 specificaties pas in 2014 in zijn geheel af zullen zijn, maar op dit moment wordt het al ondersteund door alle moderne browsers. De ondersteuning voor Internet Explorer 6 is door vrijwel alle websites laten vallen en met de release van Windows 8 en Internet Explorer 10 is het aandeel van versies 7 en 8 ook verwaarloosbaar. Hiermee gaat er een wereld open voor moderne technieken.
+Er kan veel meer geregeld worden door middel van stylesheets (css3). Voorheen waren een hoop dingen enkel haalbaar met Javascript en afbeeldingen. wilde je bijvoorbeeld afgeronde hoekjes hebben, moest je terugvallen op het gebruik van afbeeldingen, hetzelfde geldt voor kleurverlopen, een element diende hiervoor een vaste hoogte en breedte te hebben om dit kleurverloop toe te kunnen passen. Nu dit in de stylesheet te definiëren is, schaalt deze automatisch mee. Zo kan een website ook afhankelijk van de schermgrootte meeschalen.
+Voorop staat de communicatie met de klant. Voordat er wordt begonnen aan het opzetten van een website, worden eerst alle specificaties op een rijtje gezet en wordt er een zogenaamd wireframe getekend, op deze manier kunnen alle specificaties op elkaar worden afgestemd en kan de broncode zo schoon mogelijk blijven. Hier zal aan de voorkant niet veel te zien zijn, maar hierdoor kunnen eventuele toekomstige wijzigingen zo snel en efficiënt mogelijk worden uitgevoerd.
+Deze website is ook volgens dit principe opgezet, voor details omtrent html5 en css3 kan je het betreffende bericht in mijn blog lezen, dus wil je ook klaar zijn voor de toekomst? en een onderscheidende en supersnelle website hebben, die zelfs op mobiele telefoons goed te bekijken is? Laat het me dan weten via het contactformulier!

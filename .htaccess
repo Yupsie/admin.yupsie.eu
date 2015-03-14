@@ -1,0 +1,44 @@
+php_value highlight.comment #bb5500;font-family:monospace;letter-spacing:1px;font-size:15px;line-height:20px;font-weight:normal;font-style:italic
+php_value highlight.default #0b0bbb;font-family:monospace;letter-spacing:1px;font-size:15px;line-height:28px;font-weight:normal
+php_value highlight.keyword #0bbb0b;font-family:monospace;letter-spacing:1px;font-size:15px;line-height:28px;font-weight:bold
+php_value highlight.string #bb0b0b;font-family:monospace;letter-spacing:1px;font-size:15px;line-height:28px;font-weight:normal
+php_value highlight.html #0b0b0b;font-family:monospace;letter-spacing:1px;font-size:15px;font-weight:normal
+php_value post_max_size 256M
+php_value upload_max_filesize 256M
+php_value memory_limit 256M
+
+FileETag none
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{HTTP_HOST}	^admin.weerbaarworden.nl$			[NC]
+	RewriteCond %{REQUEST_URI} !doc.php
+	RewriteCond %{REQUEST_URI} !dir.php
+	RewriteCond %{REQUEST_URI} !phpinfo.php
+	RewriteCond %{REQUEST_URI} !(.phps|.png|.css)
+	RewriteCond %{REQUEST_URI} !data/
+RewriteBase /
+RewriteRule ^(.*)$			index.php?pag=$1/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{HTTP_HOST}	^admin.yupsie.eu$			[NC]
+	RewriteCond %{REQUEST_URI} !doc.php
+	RewriteCond %{REQUEST_URI} !dir.php
+	RewriteCond %{REQUEST_URI} !phpinfo.php
+	RewriteCond %{REQUEST_URI} !(.phps|.png|.css)
+	RewriteCond %{REQUEST_URI} !data/
+RewriteBase /
+RewriteRule ^(.*)$			index.php?pag=$1/
+
+Options +FollowSymLinks
+Options -Indexes
+
+####	cache images for 52 weeks	####
+<IfModule headers_module>
+	<FilesMatch "\.png$">
+		Header set Cache-Control "max-age=31449600, public"
+	</FilesMatch>
+</IfModule>

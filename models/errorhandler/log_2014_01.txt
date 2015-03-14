@@ -1,0 +1,42 @@
+
+#@####-04-01-2014 12:08:45-###
+- Message: Oeps... - 404 - Klasse "C_Login" niet gevonden
+
+- File: /var/sub/admin.yupsie.eu/controllers/classloader/index.php
+- Line: 43
+- Code: 0
+
+##-Stack-trace-##
+#0 /var/sub/admin.yupsie.eu/controllers/classloader/index.php(11): C_Classloader_Main::run('C_Login')
+#1 [internal function]: __autoload('C_Login')
+#2 /var/sub/admin.yupsie.eu/index.php(74): class_exists('C_Login')
+#3 {main}
+
+#-Additional-info-#
+- IP: 82.171.61.92
+- User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+- Cookie: PHPSESSID=75175b4dafc2205ea2205eab3b36a6f7
+- Querystring: pag=login//
+- Request method: GET
+- HTTP Status: 
+
+#@####-04-01-2014 12:09:00-###
+- Message: Oeps... - 404 - Klasse "C_Login" niet gevonden
+
+- File: /var/sub/admin.yupsie.eu/controllers/classloader/index.php
+- Line: 43
+- Code: 0
+
+##-Stack-trace-##
+#0 /var/sub/admin.yupsie.eu/controllers/classloader/index.php(11): C_Classloader_Main::run('C_Login')
+#1 [internal function]: __autoload('C_Login')
+#2 /var/sub/admin.yupsie.eu/index.php(74): class_exists('C_Login')
+#3 {main}
+
+#-Additional-info-#
+- IP: 82.171.61.92
+- User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+- Cookie: PHPSESSID=75175b4dafc2205ea2205eab3b36a6f7
+- Querystring: pag=login//
+- Request method: GET
+- HTTP Status: 
