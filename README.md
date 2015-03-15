@@ -107,7 +107,7 @@ Yupsie
 Visit my website on [Yupsie.eu](www.yupsie.eu); use the contact form to submit bugs or to place feature requests
 
 ## Read LICENSE
-See [GPL](admin.yupsie.eu/GPL.md)
+See [GPL](admin.yupsie.eu/LICENSE.md)
 
 ## Read INSTALL
 No documentation available yet. I will supply a codesnippet for `git clone` as soon as I find out how it all works. Perhaps I can use an install directive to automatically create a config.php file with the right settings.
