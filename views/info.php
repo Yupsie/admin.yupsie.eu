@@ -49,6 +49,8 @@ class V_Info extends V_Main {
 	 *	@return void
 	 */
 	public function setContent($aDataTables = array()) {
+		$oParsedown = new V_Parsedown_Main();
+		$sText = file_get_contents('/var/sub/admin.yupsie.eu/README.md');
 
 		$this->sData .= '
 		<section id="info">
@@ -70,6 +72,7 @@ class V_Info extends V_Main {
 
 		$this->sData .= '
 			</table>
-		</section>';
+		</section>
+		<section>' . $oParsedown->text($sText) . '</section>';
 	}
 }
