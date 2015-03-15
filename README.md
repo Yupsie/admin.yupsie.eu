@@ -22,6 +22,8 @@ Creating new subdomains complete with config and giving users a login for managi
 - Create a subdomain in a *specified* directory, like /var/www/subdomains/subdomain.example.com and create a config.php and an index.html in this directory
 - Append a new virtual host to a *specified* file in the Apache directory, requiring a manual Apache restart, or a cronjob to reload Apache. Use the `reload` directive to perform a syntax check and keep your webserver up and running
 - Manage files in a *specified* folder
+- View statistics, like number of visitors/pageviews and the percentage of the used browsers per month or the total of the current year
+- Manage cronjobs, view the logs of the cronjobs and the errorlogs
 
 
 ## Installation instructions: create a config.php
@@ -100,14 +102,18 @@ $__DB = array(
 );
 ```
 
+
 ## Authors
 Yupsie
+
 
 ## Contact info
 Visit my website on [Yupsie.eu](www.yupsie.eu); use the contact form to submit bugs or to place feature requests
 
+
 ## Read LICENSE
 See [GPL](admin.yupsie.eu/LICENSE.md)
+
 
 ## Read INSTALL
 No documentation available yet. I will supply a codesnippet for `git clone` as soon as I find out how it all works. Perhaps I can use an install directive to automatically create a config.php file with the right settings.
