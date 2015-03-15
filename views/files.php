@@ -56,7 +56,7 @@ class V_Files extends V_Main {
 			if (is_dir($aFile['path'] . $aFile['name'])) {
 				$this->sData .= '
 						<tr' . (substr($aFile['name'], 0, 1) == '.' ? ' class="hidden"' : '') . '>
-							<td colspan="2"><strong><a href="' . str_replace('/', '+', strtolower(trim($this->oClean->getParts(1) . '/-' . $aFile['name'], '/'))) . '">' . $aFile['name'] . '</a></strong></td>
+							<td colspan="2"><strong><a href="' . str_replace('/', '+', strtolower(trim($this->oClean->getParts(1) . '/' . $aFile['name'], '/'))) . '">' . $aFile['name'] . '</a></strong></td>
 							<td>' . $aFile['mimetype'] . '<br>&nbsp;</td>
 							<td class="permissions">&nbsp;<br>
 								<em>' . $aFile['permissions'] . '</em></td>
@@ -89,7 +89,7 @@ class V_Files extends V_Main {
 							<td>' . $aFile['mimetype'] . '<br>' . (isset($aDimensions[1]) ? $aDimensions[0] . 'x' . $aDimensions[1] : '') . '</td>
 							<td class="permissions">' . $aFile['size'] . '<br>
 								<em>' . $aFile['permissions'] . '</em></td>
-							<td><a href="' . $aFile['name'] . '/del/" class="del_icon">I</a></td>
+							<td><a href="' . str_replace('/', '+', strtolower(trim($this->oClean->getParts(1) . '/' . $aFile['name'], '/'))) . '/del/" class="del_icon">I</a></td>
 						</tr>';
 			}
 		}

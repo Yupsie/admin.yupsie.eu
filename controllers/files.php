@@ -21,12 +21,11 @@ class C_Files extends C_Main {
 		chdir('..');
 
 		if (strtolower($this->oClean->getParts(2)) == 'del') {
-			if (unlink(UPLOAD_PATH . strtolower($this->oClean->getParts(1)))) {
+			if (file_exists(UPLOAD_PATH . str_replace('+', '/', strtolower($this->oClean->getParts(1)))) && unlink(UPLOAD_PATH . str_replace('+', '/', strtolower($this->oClean->getParts(1))))) {
 				header('Location: /files/');
 			}
 			else {
-				header('Location: /files/');
-			//	echo 'Delete failed';
+				throw new Exception('Delete failed');
 			}
 		}
 
@@ -44,10 +43,10 @@ class C_Files extends C_Main {
 							$sFileNameNew = implode('.', $aFileName);		
 							$i++;
 						}
-						move_uploaded_file($_FILES['file']['tmp_name'][$sKey], UPLOAD_PATH . '/' . $sFileNameNew);
+						move_uploaded_file($_FILES['file']['tmp_name'][$sKey], UPLOAD_PATH . str_replace('+', '/', strtolower($this->oClean->getParts(1))) . '/' . $sFileNameNew);
 					}
 					else {
-						move_uploaded_file($_FILES['file']["tmp_name"][$sKey], UPLOAD_PATH . '/' . $_FILES['file']['name'][$sKey]);
+						move_uploaded_file($_FILES['file']["tmp_name"][$sKey], UPLOAD_PATH . str_replace('+', '/', strtolower($this->oClean->getParts(1))) . '/' . $_FILES['file']['name'][$sKey]);
 					}
 				}
 			}
