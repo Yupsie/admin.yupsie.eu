@@ -17,7 +17,6 @@ class C_Files extends C_Main {
 	 */
 	public function run() {
 
-		//	@todo: Finish the filemanager, perhaps with a database connection
 		chdir('..');
 
 		if (strtolower($this->oClean->getParts(2)) == 'del') {
