@@ -72,6 +72,11 @@ class V_Info extends V_Main {
 
 		$this->sData .= '
 			</table>
+			<table>
+				<tr>
+					<td>' . phpversion() . '</td>
+				</tr>
+			</table>
 		</section>
 		<section>' . $oParsedown->text($sText) . '</section>';
 	}

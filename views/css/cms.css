@@ -453,7 +453,7 @@ tr.hidden td {
 }
 
 /*	8.	Geshi	*/
-.mycode {
+.mycode, pre code {
 	margin:10px 0 30px 10px;
 	border:0;
 	overflow:auto;
@@ -656,4 +656,8 @@ pre ol li div {
 pre[lang=javascript] ol li div,
 .javascript ol li div {
 	color:#eeeeee;
+}
+blockquote {
+	border:1px dotted #bbbbff;
+	padding:5px;
 }
