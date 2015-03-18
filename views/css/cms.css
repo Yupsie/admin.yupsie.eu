@@ -122,17 +122,35 @@ h1 {
 h2 {
 	color:#444444;
 	padding:5px;
-	width:30%;
-	margin:0px;
-	font-size:20px;
+	width:100%;
+	margin:15px 0 0 0;
+	font-size:24px;
 	font-weight:normal;
 	font-variant:small-caps;
+	border-bottom:1px solid #ddddff;
 }
 section > h2 {
 	font-family:"Josefin","Helvetica","Trebuchet MS",sans-serif;
 }
 h3 {
 	margin:8px 0 0 0;
+	color:#333333;
+	padding:5px;
+	width:100%;
+	margin:0px;
+	font-size:20px;
+	font-weight:bold;
+	border-bottom:1px dotted #e4e4ff;
+}
+h4 {
+	margin:8px 0 0 0;
+	color:#222222;
+	padding:5px;
+	width:100%;
+	margin:0px;
+	font-size:17px;
+	font-weight:normal;
+	border-bottom:1px dotted #e8e8ff;
 }
 header {
 	background-color:#aaaaff;
@@ -314,6 +332,9 @@ section > table > tbody > tr:hover > td:hover {
 	box-shadow:10px 10px 20px 20px #ddddff inset;
 	transition:all 0.5s ease-out;
 }
+section li {
+	line-height:22px;
+}
 textarea {
 	height:250px;
 }
@@ -474,10 +495,12 @@ tr.hidden td {
 .mycode thead td {
 	background:none;
 	border-bottom:1px solid #ddddff;
+	color:#ccccff !important;
 }
 .mycode tfoot td {
 	background:none;
 	border-top:1px solid #ddddff;
+	color:#ccccff !important;
 }
 .mycode .de1,
 .mycode .de2 {

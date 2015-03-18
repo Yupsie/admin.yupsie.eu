@@ -78,6 +78,6 @@ class V_Info extends V_Main {
 				</tr>
 			</table>
 		</section>
-		<section>' . $oParsedown->text($sText) . '</section>';
+		<section>' . preg_replace_callback('/<pre\b[^>]*lang="(.+?)"\s*(lines="([0-9,]*?)")?[^>]*>(.+?)<\/pre>/s', 'V_Main::stylizeCode', str_replace(array('<pre><code>', '</code>'), array('<pre lang="php">', ''), $oParsedown->text($sText))) . '</section>';
 	}
 }
